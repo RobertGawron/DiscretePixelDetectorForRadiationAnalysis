@@ -1,0 +1,15 @@
+Reference, Quantity, Value, Footprint, Datasheet, Spice_Netlist_Enabled, Spice_Primitive,
+C1 C2 C3 C4 C7 C8 C10 C11 C12 C13 C14 C17 C18 C20 C21 C22 C23 C24 C27 C28 C30 C31 C32 C33 C34 C37 C38 C40 C41 C42 C43 C44 C47 C48 C50 ,35,100n,Capacitor_SMD:C_0402_1005Metric,,,,already have
+C5 C15 C25 C35 C45 ,5,2p2,Capacitor_SMD:C_0402_1005Metric,,,,https://www.tme.eu/pl/details/0402n2r2c500ct/kondensatory-mlcc-smd-0402/walsin/
+C6 C16 C26 C36 C46 ,5,1n,Capacitor_SMD:C_0402_1005Metric,,,,already have
+C9 C19 C29 C39 C49 ,5,4p7+2p2,Capacitor_SMD:C_0402_1005Metric,,,,https://www.tme.eu/pl/details/0402n4r7c500ct/kondensatory-mlcc-smd-0402/walsin/
+D1 D3 D5 D7 D9 ,5,BPW34,LED_THT:LED_Rectangular_W5.0mm_H5.0mm,,,,https://www.tme.eu/pl/details/bpw34-v/fotodiody/vishay/bpw34/
+J1 J4 J5 J6 J7 ,5,Conn_Coaxial,Connector_Coaxial:SMA_Molex_73251-2200_Horizontal, ~,,,already have
+L1 L2 L3 L4 L5 ,5,10u,Inductor_SMD:L_0805_2012Metric,,,,https://www.tme.eu/pl/details/lqm21fn100n00l/dlawiki-smd-0805/murata/
+R10 R22 R34 R46 R58 ,5,0R,Resistor_SMD:R_0402_1005Metric,~,,,already have
+R12 R24 R36 R48 R60 ,5,not mounted,Resistor_SMD:R_0402_1005Metric,~,,,already have
+R4 R16 R28 R40 R52 ,5,10G,Resistor_SMD:R_0805_2012Metric,~,,,https://www.tme.eu/pl/details/smd0805-100m-1%25/rezystory-smd-0805/royal-ohm/0805s8f1006t5e/
+R1 R2 R5 R6 R7 R9 R11 R13 R14 R17 R18 R19 R21 R23 R25 R26 R29 R30 R31 R33 R35 R37 R38 R41 R42 R43 R45 R47 R49 R50 R53 R54 R55 R57 R59 ,35,10k,Resistor_SMD:R_0402_1005Metric,~,,,already have
+R8 R20 R32 R44 R56 ,5,10M,Resistor_SMD:R_0402_1005Metric,~,,,https://www.tme.eu/pl/details/0805s8j0106t5e/rezystory-smd-0805/royal-ohm/
+TP1 TP3 TP4 ,3,TestPoint,TestPoint:TestPoint_THTPad_D2.5mm_Drill1.2mm,~,,,already have
+U1 U2 U3 U4 U5 U6 U7 U8 U9 U10 U11 U12 U13 U14 U15 ,15,OPA145ID,Package_SO:SOIC-8_3.9x4.9mm_P1.27mm,https://www.ti.com/lit/ds/symlink/opa145.pdf?HQS=dis-mous-null-mousermode-dsf-pf-null-wwe&DCM=yes&ref_url=https%3A%2F%2Fwww.mouser.fr%2F&distId=26,Y,X,https://www.tme.eu/pl/details/opa145id/wzmacniacze-operacyjne-smd/texas-instruments/
