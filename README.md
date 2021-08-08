@@ -1,5 +1,9 @@
 # Generating 2D maps of surface radioactivity for small objects
 
+[![Docs Generation](https://github.com/RobertGawron/TwoDimensionalSemiconductorRadioactivityDetector/workflows/Docs%20Generation/badge.svg)](https://github.com/RobertGawron/TwoDimensionalSemiconductorRadioactivityDetector/actions?query=workflow%3A%22Docs+Generation%22)
+
+**This project is unfinished.**
+
 ## Principle of operation
 
 A normal radioactivity detector has only one detecting element so it gives only one measured value at a time. If multiple of detectors will be assembled to form a grid, it would be possible to measure some objects (that fit to the detector area, roughly 5x5 cm) and create images showing radioactive spots.
