@@ -16,11 +16,11 @@ A single sensor is based on the photodiode. All sensors will be equipped with sc
 
 Below is a rendering of sensor PCB, five of them will be used.
 
-![picture of device](./Documentation/Pictures/render_08_08_2021.jpg)
+![picture of device](./Documentation/Pictures/render_08_08_2021.png)
 
 ## System architecture
 
-<img src="./Diagrams/ArchitectureOverview.svg"  width="100%">
+<img src="./Documentation/Diagrams/ArchitectureOverview.svg"  width="100%">
 
 ## Hardware
 
