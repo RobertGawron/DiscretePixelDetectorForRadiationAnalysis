@@ -18,7 +18,7 @@
 	\pgfdeclarelayer{background}
 	\pgfsetlayers{background,main}
 		\node (detectors) [system] {Grid of 5x5 \\ detectors};
-		\node (acquisition) [system, right=of detectors] {Real time acquisition and\\initial processing\\ CPLD (XC2C64A-7QFG48C)};
+		\node (acquisition) [system, right=of detectors] {Real time acquisition and\\initial processing\\ CPLD (5M40ZE64I5N)};
         \node (processing) [system, right=of acquisition] {Applying supper-resolution\\ algorithm and driving of \\ sensor position\\ (Raspberry Pi Zero W)};
 		\node (motor) [system, below=of acquisition] {Driver of sensor position};
 		\node (user) [system, right=of processing] {User};
