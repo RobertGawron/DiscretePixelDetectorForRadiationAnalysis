@@ -24,9 +24,9 @@ Below is a rendering of sensor PCB, five of them will be used.
 
 ## Hardware
 
-* [Hardware is presented here](./Hardware/Frontend/README.md)
+* [All modules are presented here.](./Hardware/README.md)
 
 ## Software
 
-* [Info about CPLD firmware](./Software/Firmware/README.md)
-* [Details of super-resolution method used here]() TDOD
+* [Info about CPLD firmware.](./Software/Firmware/README.md)
+* [Details of super-resolution method used here.]() TDOD
