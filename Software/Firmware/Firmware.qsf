@@ -66,3 +66,4 @@ set_global_assignment -name VERILOG_FILE hdl/Detector.v
 set_global_assignment -name VECTOR_WAVEFORM_FILE Detector.vwf
 set_global_assignment -name VERILOG_FILE testbench/FirmwareTestBench.v
 set_global_assignment -name VERILOG_FILE hdl/Firmware.v
+set_global_assignment -name VERILOG_FILE testbench/DetectorTestBench.v
