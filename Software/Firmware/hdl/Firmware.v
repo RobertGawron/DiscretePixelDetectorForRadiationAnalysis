@@ -3,7 +3,12 @@ module Firmware(
 	input y,
 	output z);
  
-	assign  z = x & y;
+	reg a;
+	wire out;
+	
+	Detector dut (a, out);
+	
+	assign z = 1;
 
 endmodule
 

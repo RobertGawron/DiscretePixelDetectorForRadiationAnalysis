@@ -1,0 +1,18 @@
+@startumlnote
+
+note top of Firmware: Entry point.
+
+class Firmware {
+}
+
+class Detector {
+    int counter
+}
+
+class UART_Driver {
+}
+
+Firmware "1" --o "5x5" Detector
+Firmware "1" --o "1" UART_Driver
+
+@enduml
