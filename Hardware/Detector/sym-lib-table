@@ -1,4 +1,0 @@
-(sym_lib_table
-  (lib (name SemiconductorArrayRadioactivityDetector)(type Legacy)(uri ${KIPRJMOD}/SemiconductorArrayRadioactivityDetector.lib)(options "")(descr ""))
-  (lib (name OPA145ID)(type Legacy)(uri C:/Users/robert/Documents/OPA145ID.lib)(options "")(descr ""))
-)
