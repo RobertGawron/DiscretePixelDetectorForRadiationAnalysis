@@ -1,0 +1,5 @@
+(sym_lib_table
+  (lib (name "DiscretePixelDetectorForRadiationAnalysis")(type "KiCad")(uri "${KIPRJMOD}/DiscretePixelDetectorForRadiationAnalysis.kicad_sym")(options "")(descr ""))
+  (lib (name "opamp_dual_generic")(type "KiCad")(uri "C:/Users/robert/Documents/opamp_dual_generic.kicad_sym")(options "")(descr ""))
+  (lib (name "opamp_quad_generic")(type "KiCad")(uri "C:/Users/robert/Documents/opamp_quad_generic.kicad_sym")(options "")(descr ""))
+)
