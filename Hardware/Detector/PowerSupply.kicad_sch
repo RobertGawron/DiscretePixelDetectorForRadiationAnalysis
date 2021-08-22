@@ -231,7 +231,7 @@
     )
   )
 
-  (symbol (lib_id "power:VCC") (at 95.25 63.5 0)
+  (symbol (lib_id "power:VCC") (at 95.25 63.5 0) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid 00000000-0000-0000-0000-0000613a2ceb)
     (property "Reference" "#PWR021" (id 0) (at 95.25 67.31 0)
@@ -247,7 +247,7 @@
     (pin "1" (uuid c4a8f8d6-58e3-4972-bf8b-14d09e5c53fd))
   )
 
-  (symbol (lib_id "power:PWR_FLAG") (at 93.98 100.33 0)
+  (symbol (lib_id "power:PWR_FLAG") (at 93.98 100.33 0) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid 00000000-0000-0000-0000-0000613a2ce4)
     (property "Reference" "#FLG02" (id 0) (at 93.98 98.425 0)
@@ -263,7 +263,7 @@
     (pin "1" (uuid df99e0df-ad35-43a7-8207-4f6e2519f101))
   )
 
-  (symbol (lib_id "power:PWR_FLAG") (at 102.87 63.5 0)
+  (symbol (lib_id "power:PWR_FLAG") (at 102.87 63.5 0) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid 00000000-0000-0000-0000-0000613a2d09)
     (property "Reference" "#FLG03" (id 0) (at 102.87 61.595 0)
@@ -279,7 +279,7 @@
     (pin "1" (uuid a0040ff4-6262-499d-bb51-00d54f806416))
   )
 
-  (symbol (lib_id "power:PWR_FLAG") (at 102.87 76.2 180)
+  (symbol (lib_id "power:PWR_FLAG") (at 102.87 76.2 180) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid 00000000-0000-0000-0000-0000613a2d03)
     (property "Reference" "#FLG04" (id 0) (at 102.87 78.105 0)
@@ -341,7 +341,7 @@
     (pin "1" (uuid 4beb5734-85d6-4a50-876d-7734c83c3390))
   )
 
-  (symbol (lib_id "power:GND") (at 95.25 76.2 0)
+  (symbol (lib_id "power:GND") (at 95.25 76.2 0) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid 00000000-0000-0000-0000-0000613a2cf1)
     (property "Reference" "#PWR022" (id 0) (at 95.25 82.55 0)
