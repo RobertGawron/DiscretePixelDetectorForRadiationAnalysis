@@ -6,7 +6,7 @@
     (property "Value" "AS321" (id 1) (at 1.27 -1.27 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Footprint" "Package_TO_SOT_SMD:SOT-223-5" (id 2) (at 0 0 0)
+    (property "Footprint" "Package_TO_SOT_SMD:SOT-23-5" (id 2) (at 0 0 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "https://www.tme.eu/Document/ff04728045a484fb1c57ffb6d73e1bf1/AS321.pdf" (id 3) (at 0 0 0)
