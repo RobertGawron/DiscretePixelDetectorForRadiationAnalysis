@@ -8,6 +8,18 @@
   )
 
 
+  (sheet (at 132.08 43.18) (size 10.16 3.81) (fields_autoplaced)
+    (stroke (width 0.0006) (type solid) (color 0 0 0 0))
+    (fill (color 0 0 0 0.0000))
+    (uuid 5f2e3474-4294-4ba3-9888-5e127036e05d)
+    (property "Sheet name" "Connector" (id 0) (at 132.08 42.5443 0)
+      (effects (font (size 1.27 1.27)) (justify left bottom))
+    )
+    (property "Sheet file" "Connector.kicad_sch" (id 1) (at 132.08 47.4987 0)
+      (effects (font (size 1.27 1.27)) (justify left top))
+    )
+  )
+
   (sheet (at 60.96 45.72) (size 12.7 3.81) (fields_autoplaced)
     (stroke (width 0) (type solid) (color 0 0 0 0))
     (fill (color 0 0 0 0.0000))
@@ -56,39 +68,27 @@
     )
   )
 
-  (sheet (at 106.68 44.45) (size 12.7 3.81) (fields_autoplaced)
-    (stroke (width 0) (type solid) (color 0 0 0 0))
-    (fill (color 0 0 0 0.0000))
-    (uuid 00000000-0000-0000-0000-0000613a12f3)
-    (property "Sheet name" "PowerSupply" (id 0) (at 106.68 43.8145 0)
-      (effects (font (size 1.27 1.27)) (justify left bottom))
-    )
-    (property "Sheet file" "PowerSupply.kicad_sch" (id 1) (at 106.68 48.7685 0)
-      (effects (font (size 1.27 1.27)) (justify left top))
-    )
-  )
-
   (sheet_instances
     (path "/" (page "1"))
     (path "/00000000-0000-0000-0000-00006126bc2d" (page "2"))
     (path "/00000000-0000-0000-0000-00006126c89a" (page "3"))
     (path "/00000000-0000-0000-0000-00006126c995" (page "4"))
     (path "/00000000-0000-0000-0000-00006126cbd6" (page "5"))
-    (path "/00000000-0000-0000-0000-0000613a12f3" (page "7"))
+    (path "/5f2e3474-4294-4ba3-9888-5e127036e05d" (page "7"))
   )
 
   (symbol_instances
     (path "/00000000-0000-0000-0000-00006126bc2d/00000000-0000-0000-0000-000061297d92"
       (reference "#FLG01") (unit 1) (value "PWR_FLAG") (footprint "")
     )
-    (path "/00000000-0000-0000-0000-0000613a12f3/00000000-0000-0000-0000-0000613a2d09"
-      (reference "#FLG02") (unit 1) (value "PWR_FLAG") (footprint "")
+    (path "/5f2e3474-4294-4ba3-9888-5e127036e05d/06133da6-7cc3-4082-a5f3-3c340855df19"
+      (reference "#FLG?") (unit 1) (value "PWR_FLAG") (footprint "")
     )
-    (path "/00000000-0000-0000-0000-0000613a12f3/00000000-0000-0000-0000-0000613a2d03"
-      (reference "#FLG03") (unit 1) (value "PWR_FLAG") (footprint "")
+    (path "/5f2e3474-4294-4ba3-9888-5e127036e05d/853a2901-ebb3-4f30-bb7f-c3af7d416212"
+      (reference "#FLG?") (unit 1) (value "PWR_FLAG") (footprint "")
     )
-    (path "/00000000-0000-0000-0000-0000613a12f3/00000000-0000-0000-0000-0000613a2ce4"
-      (reference "#FLG04") (unit 1) (value "PWR_FLAG") (footprint "")
+    (path "/5f2e3474-4294-4ba3-9888-5e127036e05d/9d2454be-5e62-4368-82c6-b9619bf6d756"
+      (reference "#FLG?") (unit 1) (value "PWR_FLAG") (footprint "")
     )
     (path "/00000000-0000-0000-0000-00006126bc2d/00000000-0000-0000-0000-000061297e78"
       (reference "#PWR01") (unit 1) (value "VCC") (footprint "")
@@ -147,12 +147,6 @@
     (path "/00000000-0000-0000-0000-00006126bc2d/00000000-0000-0000-0000-000061297dea"
       (reference "#PWR019") (unit 1) (value "GND") (footprint "")
     )
-    (path "/00000000-0000-0000-0000-0000613a12f3/00000000-0000-0000-0000-0000613a2ceb"
-      (reference "#PWR020") (unit 1) (value "VCC") (footprint "")
-    )
-    (path "/00000000-0000-0000-0000-0000613a12f3/00000000-0000-0000-0000-0000613a2cf1"
-      (reference "#PWR021") (unit 1) (value "GND") (footprint "")
-    )
     (path "/00000000-0000-0000-0000-00006126bc2d/c606fb33-e83c-4379-997e-ae830a0633db"
       (reference "#PWR022") (unit 1) (value "GND") (footprint "")
     )
@@ -167,6 +161,12 @@
     )
     (path "/00000000-0000-0000-0000-00006126bc2d/5460770a-1575-4123-a077-71bbdd11f14e"
       (reference "#PWR026") (unit 1) (value "GND") (footprint "")
+    )
+    (path "/5f2e3474-4294-4ba3-9888-5e127036e05d/c64404e3-c5a4-45e5-b3f5-f07ff96d3c86"
+      (reference "#PWR?") (unit 1) (value "GND") (footprint "")
+    )
+    (path "/5f2e3474-4294-4ba3-9888-5e127036e05d/f020742a-bb32-463f-a128-fd61cbeed9e0"
+      (reference "#PWR?") (unit 1) (value "VCC") (footprint "")
     )
     (path "/00000000-0000-0000-0000-00006126bc2d/00000000-0000-0000-0000-000061297ddf"
       (reference "C1") (unit 1) (value "2p2") (footprint "Capacitor_SMD:C_0402_1005Metric")
@@ -291,14 +291,14 @@
     (path "/00000000-0000-0000-0000-00006126bc2d/61a8792e-654a-4f31-a119-78d0385d188a"
       (reference "R22") (unit 1) (value "10k") (footprint "Resistor_SMD:R_0402_1005Metric")
     )
-    (path "/00000000-0000-0000-0000-0000613a12f3/00000000-0000-0000-0000-00006158fd79"
-      (reference "TP1") (unit 1) (value "TestPoint") (footprint "TestPoint:TestPoint_THTPad_D2.5mm_Drill1.2mm")
+    (path "/5f2e3474-4294-4ba3-9888-5e127036e05d/80ad8886-8277-4b99-a3ab-d7372042ac3b"
+      (reference "TP?") (unit 1) (value "TestPoint") (footprint "TestPoint:TestPoint_THTPad_D2.5mm_Drill1.2mm")
     )
-    (path "/00000000-0000-0000-0000-0000613a12f3/00000000-0000-0000-0000-0000615908a9"
-      (reference "TP2") (unit 1) (value "TestPoint") (footprint "TestPoint:TestPoint_THTPad_D2.5mm_Drill1.2mm")
+    (path "/5f2e3474-4294-4ba3-9888-5e127036e05d/cb6df753-a749-41d3-9c0d-94316f12f764"
+      (reference "TP?") (unit 1) (value "TestPoint") (footprint "TestPoint:TestPoint_THTPad_D2.5mm_Drill1.2mm")
     )
-    (path "/00000000-0000-0000-0000-0000613a12f3/00000000-0000-0000-0000-000061592458"
-      (reference "TP3") (unit 1) (value "TestPoint") (footprint "TestPoint:TestPoint_THTPad_D2.5mm_Drill1.2mm")
+    (path "/5f2e3474-4294-4ba3-9888-5e127036e05d/d6e76c16-a992-4b76-9f80-139c651fa51d"
+      (reference "TP?") (unit 1) (value "TestPoint") (footprint "TestPoint:TestPoint_THTPad_D2.5mm_Drill1.2mm")
     )
     (path "/00000000-0000-0000-0000-00006126bc2d/016b2bd9-b16e-4b2a-8d92-eca9fb803dc8"
       (reference "U1") (unit 1) (value "AS321") (footprint "Package_TO_SOT_SMD:SOT-23-5")
